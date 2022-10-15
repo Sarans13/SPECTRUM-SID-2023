@@ -1,0 +1,19 @@
+@font-face {
+    font-family: imported;
+    src: url("./fonts/Cyberion-Demo.ttf")
+}
+@font-face {
+    font-family: jmh;
+    src: url("./fonts2/JMH Typewriter.ttf")
+}
+
+#cyber {
+    font-family: imported;
+}
+
+
+#jmh {
+
+   font-family: jmh;
+   
+}
