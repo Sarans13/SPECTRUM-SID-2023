@@ -29,9 +29,8 @@ function ShuvAnime() {
             <button class="flex justify-center bg-[#DA493D] w-[198.43px] h-[41.4px] items-center text-white">REGISTER</button>
           </div>
           <div class="flex flex-col space-y-[33.76px]">
-            
-            <img src="Rectangle 10.png" class="w-[333.08px] h-[245.38px]" alt="image"/>
-            <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]  font-['Cyberion_Demo'] font-[400] text-[22.4441px] leading-[26px] not-italic"/>APP DEVELOPMENT<p/>
+            <img src="Rectangle 10.png"  class="w-[333.08px] h-[245.38px]" alt="image"/>
+            <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]  font-['Cyberion_Demo'] font-[400] text-[22.4441px] leading-[26px] not-italic">APP DEVELOPMENT</p>
             <p class="text-[#CAC9C9]/[87] w-[333px] h-[108px]  font-['JMH_Typewriter'] font-[400] text-[14.1734px] leading-[18px]  not-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quis nihil alias ullam nesciunt amet quos asperiores nemo ipsam, harum eaque officiis voluptate, repellendus id fugit tenetur. Nostrum quidem at illo, animi expedita sunt! Facilis!</p>
             <button class="flex justify-center bg-[#DA493D] w-[198.43px] h-[41.4px] items-center text-white">REGISTER</button>
           </div>
