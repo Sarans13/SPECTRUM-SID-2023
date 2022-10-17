@@ -90,7 +90,7 @@ function ShuvAnime() {
 
         </div>
       </body>
-
+        {/* mom */}
       <div />
     </>
   )
