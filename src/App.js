@@ -5,7 +5,7 @@ import ShuvAnime from './ShuvAnime';
 function App() {
   return (
     <div>
-      <Hero/>
+      {/* <Hero/>  */}
       <ShuvAnime/>  
     </div>
   );
