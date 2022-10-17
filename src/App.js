@@ -1,11 +1,11 @@
 
 import './App.css';
 import Hero from './Hero';
-import ShuvAnime from './ShuvAnime';
+import ShuvAnime from './ShuvaAnime';
 function App() {
   return (
     <div>
-      {/* <Hero/>  */}
+       <Hero/>
       <ShuvAnime/>  
     </div>
   );

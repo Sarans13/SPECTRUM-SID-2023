@@ -1,9 +1,10 @@
 import React from 'react'
 import spectrum from './images/output-onlinepngtools1.png'
+import women from './images/pexels-andrea-piacquadio-3762368@2x 1 (2).png'
 
 function Hero() {
   return (
-    <div className='bg-[#303636]'>
+    <div className='' id='background'>
 
     {/* NAVBAR */}
     <div className=" relative container mx-auto p-6 ">
@@ -31,12 +32,34 @@ function Hero() {
 
 
          <section>
-          <div className='container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row'>
+          <div className='container flex flex-col-reverse items-center px-6 mx-auto mt-14 md:mt-36 gap-11 md:space-x-[20rem] md:space-y-0 md:flex-row'>
             {/* left item */}
-             <h1>   </h1>
+            {/* left flexbox */}
+            <div className='flex flex-col '>
+                <div className=''>
+                     <h1 id='cyber' className='text-lg text-[#B6B6B6] text-center    md:text-5xl md:text-left md: md: max-w-[50rem] '>SPECTRUM INTERNSHIP DRIVE 2022 </h1>
+                       <p className=' text-[10px] text-center text-[#CAC9C9] mt-7 max-w-[500px] md:text-left md:text-[16px]' id='jmh'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .
+                      </p>
+                </div>
+              {/* EXPLORE BUTTONS */}
+             <div className='flex flex-row mt-10 space-x-7'>
+               <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] bg-[#DA493D]' >EXOLORE</button>
+               <button id='cyber' className='border border-[#ffff] text-white font-[400] py-[14.3678px] px-[40.0246px]' >VIEW BROCHURE</button>
+             </div>
+             </div>
 
              {/* right image */}
+              <div className=''>
+                <img src={women} alt="women"  className='md:mb-20'/>
+               
+              </div>
 
+          </div>
+
+
+          {/* space to check scroll */}
+
+          <div className='mt-96'>
 
           </div>
          </section>
