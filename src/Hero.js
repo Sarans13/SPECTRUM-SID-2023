@@ -43,7 +43,7 @@ function Hero() {
                 </div>
               {/* EXPLORE BUTTONS */}
              <div className='flex flex-row mt-10 space-x-7'>
-               <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] bg-[#DA493D]' >EXOLORE</button>
+               <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] bg-[#DA493D]' >EXPLORE</button>
                <button id='cyber' className='border border-[#ffff] text-white font-[400] py-[14.3678px] px-[40.0246px]' >VIEW BROCHURE</button>
              </div>
              </div>
@@ -59,7 +59,7 @@ function Hero() {
 
           {/* space to check scroll */}
 
-          <div className='mt-96'>
+          <div className=' mt-36 md:mt-96'>
 
           </div>
          </section>
