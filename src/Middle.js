@@ -1,5 +1,9 @@
 import React from 'react'
 import robot from './images/andrea-de-santis-zwd435-ewb4-unsplash 1 (1).png'
+import google from './images/image 1.png'
+import linux from './images/image 4.png'
+import azure from './images/image 3.png'
+import amazon from './images/image 2.png'
 function Middle() {
   return (
     <>
@@ -35,17 +39,60 @@ function Middle() {
      
       
        </div>
+
+       <div className='py-28 md:py-44'>
+
+       </div>
       {/* flex box container ends */}
 
       {/* partnership column */}
-      <div className=''>
+      <div className='container flex flex-col item-center mx-auto gap-y-10 md:flex-row'>
+
+        {/* text */}
+        <div  className=' md:w-10 pl-[50px]'>
+          <p id='cyber' className='text-[#B6B6B6]  text-3xl md:text-5xl '>IN PARTNERSHIP WITH</p>
+        </div>
+
+        {/* partners */}
+        <div className='flex flex-auto justify-between pl-0 md:justify-end mx-auto space-x-5 md:space-x-16'>
+        <div className='bg-white  h-[70px] w-[70px] md:h-[136px] md:w-[144px] rounded-full'>
+          <img src={linux} alt="" className='h-[40px] w-[50px] m-[11px] mt-4  md:h-[81.16px] md:w-[94.21px] md:m-6 ' />
+
+        </div>
+
+        <div className='bg-white  h-[70px] w-[70px] md:h-[136px] md:w-[144px] rounded-full'>
+          <img src={azure} alt="" className='h-[40px] w-[50px] m-[11px] mt-4  md:h-[81.16px] md:w-[94.21px] md:m-6' />
+
+        </div>
+
+        <div className='bg-white  h-[70px] w-[70px] md:h-[136px] md:w-[144px] rounded-full'>
+          <img src={amazon} alt="" className='h-[40px] w-[50px] m-[11px] mt-4  md:h-[81.16px] md:w-[94.21px] md:m-6' />
+
+        </div>
+
+        <div className='bg-white  h-[70px] w-[70px] md:h-[136px] md:w-[144px] rounded-full'>
+          <img src={google} alt="" className='h-[40px] w-[50px] m-[11px] mt-4  md:h-[81.16px] md:w-[94.21px] md:m-6' />
+
+        </div>
+
+       
+
+        </div>
+        
+
+
 
 
 
       </div>
 
 
+      <div className='mt-24 md:mt-36   mx-10 md:mx-24'>
+        <div className='border-b-2 border-[#CAC9C9]/87  w-auto'>
+        </div>
 
+
+        </div>
 
 
 
@@ -53,7 +100,7 @@ function Middle() {
        {/* spacing */}
        
 
-       <div className='py-44'>
+       <div className=' py-28 md:py-44'>
 
        </div>
     </>
