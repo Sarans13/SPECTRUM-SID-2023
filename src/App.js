@@ -6,8 +6,8 @@ import ShuvAnime from './ShuvaAnime';
 function App() {
   return (
     <div>
-         <Hero/>  
-         <Middle/>  
+       <Hero/>
+       <Middle/>
       <ShuvAnime/>
     </div>
   );

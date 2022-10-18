@@ -56,7 +56,7 @@ function ShuvAnime() {
 
  <br /><br /><br /><br />
 
- <div class="border-b-gray-400  border-b-2 ml-[20px] md:ml-[91px]   mr-[35px] md:mr-[80px]">
+ <div class="border-b-gray-400  border-b-2 ml-[20px] md:ml-[91px]   mr-[35px] md:mr-[81px]">
     {/* Heading 2 */}
    <p class="text-[#B6B6B6]  text-3xl md:text-[42px] font-[400] leading-[49px] tracking-[0.025em]  not-italic" id="cyber">
      STEPS TO GET STARTED WITH..
@@ -78,7 +78,7 @@ function ShuvAnime() {
 
 
 
- <div class=" pt-[53.88px] ml-[20px] md:ml-[91px] mr-[35px] md:mr-[76px] md:flex border-b-gray-400  border-b-2 ">
+ <div class=" pt-[53.88px] ml-[20px] md:ml-[91px] mr-[35px] md:mr-[81px] md:flex border-b-gray-400  border-b-2 ">
    {/* Flex container 2 */}
    <div class="ml-[20px] md:pr-[99.64px]">
      {/* Image(Rectangle 19.png) */}
@@ -89,11 +89,11 @@ function ShuvAnime() {
    <div class="flex flex-col">
      {/* Nested Flex */}
      <div class="md:flex mb-[39px]">
-       <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[35px] pr-[60px]">
+       <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[35px] pr-[139px]">
          <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic " id="cyber">REGISTRATiON PHASE</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px] " id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
-       <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] md:pb-[103px] pt-10 md:pt-[35px] pr-[60px]">
+       <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] md:pb-[103px] pt-10 md:pt-[35px] pr-[139px]">
          <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 1:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px]" id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
@@ -102,11 +102,11 @@ function ShuvAnime() {
        <hr class="hidden md:block"></hr>
 
      <div class="md:flex mt-[39px] mb-[39px]">
-       <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[60px]" >
+       <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[139px]" >
          <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 2:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px] " id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
-       <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[60px]">
+       <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[139px]">
          <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 3:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic  pt-[18.07px]" id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
