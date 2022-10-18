@@ -29,14 +29,14 @@ function ShuvAnime() {
    <div class="flex flex-col space-y-[33.76px] pl-2 pb-4">
      <img src={rect} class="w-[333.08px] h-[245.38px]" alt="image" />
       {/* Image Rectangle 10.png */}
-     <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
+     <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
      <p class="text-[#CAC9C9]/[87] w-[333px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic " id="jmh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quis nihil alias ullam nesciunt amet quos asperiores nemo ipsam, harum eaque officiis voluptate, repellendus id fugit tenetur. Nostrum quidem at illo, animi expedita sunt! Facilis!</p>
      <button class="flex justify-center bg-[#DA493D] w-[198.43px] h-[41.4px] items-center text-white" id="cyber">REGISTER</button>
    </div>
    <div class="flex flex-col space-y-[33.76px] pb-4">
      <img src={rect} class="w-[333.08px] h-[245.38px]" alt="image" />
      {/* Image Rectangle 10.png */}
-     <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
+     <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
      <p class="text-[#CAC9C9]/[87] w-[333px] h-[108px]  font-[400] text-[14.1734px] leading-[18px]  not-italic" id="jmh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quis nihil alias ullam nesciunt amet quos asperiores nemo ipsam, harum eaque officiis voluptate, repellendus id fugit tenetur. Nostrum quidem at illo, animi expedita sunt! Facilis!</p>
      <button class="flex justify-center bg-[#DA493D] w-[198.43px] h-[41.4px] items-center text-white" id="cyber">REGISTER</button>
    </div>
@@ -44,7 +44,7 @@ function ShuvAnime() {
    <div class="flex flex-col space-y-[33.76px] pb-4">
      <img src={rect} class="w-[333.08px] h-[245.38px]" alt="image" />
       {/* Image Rectangle 10.png */}
-     <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
+     <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">APP DEVELOPMENT</p>
      <p class="text-[#CAC9C9]/[87] w-[333px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic " id="jmh">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quis nihil alias ullam nesciunt amet quos asperiores nemo ipsam, harum eaque officiis voluptate, repellendus id fugit tenetur. Nostrum quidem at illo, animi expedita sunt! Facilis!</p>
      <button class="flex justify-center bg-[#DA493D] w-[198.43px] h-[41.4px] items-center text-white" id="cyber">REGISTER</button>
    </div>
@@ -90,11 +90,11 @@ function ShuvAnime() {
      {/* Nested Flex */}
      <div class="md:flex mb-[39px]">
        <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[35px] pr-[60px]">
-         <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic " id="cyber">REGISTRATiON PHASE</p>
+         <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic " id="cyber">REGISTRATiON PHASE</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px] " id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
        <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] md:pb-[103px] pt-10 md:pt-[35px] pr-[60px]">
-         <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 1:-</p>
+         <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 1:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px]" id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
      </div>
@@ -103,11 +103,11 @@ function ShuvAnime() {
 
      <div class="md:flex mt-[39px] mb-[39px]">
        <div class="md:border-x-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[60px]" >
-         <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 2:-</p>
+         <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 2:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic pt-[18.07px] " id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
        <div class="md:border-r-[1.02px] border-[#D9D9D9] px-[25px] pb-[103px] pt-[10px] md:pt-[35px] pr-[60px]">
-         <p class="text-[#E5E5E5] w-[386.23px] h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 3:-</p>
+         <p class="text-[#E5E5E5]  h-[29.93px]   font-[400] text-[22.4441px] leading-[26px] not-italic" id="cyber">TASK 3:-</p>
          <p class="text-[#CAC9C9]/[87] w-[288px] h-[108px]   font-[400] text-[14.1734px] leading-[18px]  not-italic  pt-[18.07px]" id="jmh">Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive.</p>
        </div>
      </div>
