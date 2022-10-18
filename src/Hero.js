@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import spectrum from './images/output-onlinepngtools1.png'
 import women from './images/pexels-andrea-piacquadio-3762368@2x 1 (2).png'
-
+import { Divide as Hamburger } from 'hamburger-react'
 function Hero() {
+
+  const [isOpen, setOpen] = useState(false)
+
+  function handleToggle(){
+
+    setOpen((prevState) => (!prevState));
+  }
   return (
     <div className='' id='background'>
 
@@ -22,11 +29,22 @@ function Hero() {
          </div>
 
          {/* hamburger menu */}
-         
+         <div className='block hamburger md:hidden'>
+         <Hamburger  onToggle={handleToggle}/>
+         </div>
          
          </div>
          {/* MOBILE MENU */}
+           <div className='md:hidden'>
 
+            {isOpen &&
+           <div id="menu" className="absolute flex flex-col items-center  self-end py-8 mt-10 space-y-6 font-bold bg-[#303636]/30 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <div className='text-white' id='cyber'>LOGIN</div>
+          <div className='text-white' id='cyber'>REGISTER</div>
+          </div>}
+           </div>
+
+         
 
          {/* hero section */}
 
