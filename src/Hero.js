@@ -65,7 +65,7 @@ function Hero() {
                <button id='cyber' className='border border-[#ffff] text-white font-[400] py-[14.3678px] px-[40.0246px] hover:bg-[#531e1a]' >VIEW BROCHURE</button>
              </div>    
              </div>
-
+   
              {/* right image */}
               <div className=''>
                 <img src={women} alt="women"  className='md:mb-20'/>
