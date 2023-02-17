@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import spectrum from './images/output-onlinepngtools1.png'
 import women from './images/pexels-andrea-piacquadio-3762368@2x 1 (2).png'
+import { NavLink } from 'react-router-dom'
 import { Divide as Hamburger } from 'hamburger-react'
 function Hero() {
 
@@ -23,9 +24,13 @@ function Hero() {
 
          <div className=' hidden md:flex flex-auto justify-end space-x-5 items-center' id='cyber'>
             
-          
+            <NavLink to={'/user'}>
             <button className='text-white font-cyberian demo'>LOGIN</button>
+            </NavLink>
+            <NavLink to={'/register'}>
             <button className='text-white font-cyberian demo'>REGISTER</button>
+            </NavLink>
+            
          </div>
 
          {/* hamburger menu */}
