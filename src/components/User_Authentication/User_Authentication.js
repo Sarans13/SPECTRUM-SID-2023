@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import avatar from '../../images/Avatars Default.png'
+import { NavLink } from 'react-router-dom'
 const UserDetail = () => {
   return (
     <>
@@ -18,7 +19,8 @@ const UserDetail = () => {
       <input type="password" placeholder='Confirm Password' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <input type="text" placeholder='Choose Domain' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <div>
-      <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button>
+        <NavLink to={'/user'}>
+      <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button></NavLink>
       </div>  
     </form>
 
