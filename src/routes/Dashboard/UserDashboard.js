@@ -2,13 +2,19 @@ import React from 'react'
 import avatar from '../../images/Avatars Default.png'
 import './Dash.css'
 import Footer from '../../components/footer/Footer'
+import WestOutlinedIcon from '@mui/icons-material/WestOutlined';
+import { NavLink } from 'react-router-dom';
 const UserDashboard = () => {
   return (
     <div>
+      <div className='flex flex-row justify-between p-10 pb-0 bg-zinc-800 text-white'>
+         <NavLink to={'/'}><WestOutlinedIcon fontSize='large'/></NavLink>
+         <NavLink to={'/'}><button id='cyber' className='text-xl hover:text-[#DA493D] transition ease-in-out   hover:translate-y-1 hover:scale-110 duration-300'>SIGN OUT</button></NavLink>
+      </div>
     <div className='pt-44 pb-20 border-b-2 border-[#908d8d] bg-zinc-800' >
     <div className='flex flex-col items-center px-auto space-y-4' id='cyber'>
      <img src={avatar} alt="noob" className=' h-[169.8px] w-[244.38px]  bg-zinc-600 border-0 rounded-full  pt-10 m-auto w-56 h-56  items-center ' />
-     <h3 className='text-center text-white text-2xl'>KARTIK PATTNAIK</h3>
+     <h3 className='text-center text-white text-3xl '>KARTIK PATTNAIK</h3>
      <h2 className=' text-center py-1 px-3  bg-[#5B5F5F] text-[#D9D9D9] max-w-xs'>APP DEVELOPMENT</h2>
      </div>
     </div>
