@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import spectrum from './images/output-onlinepngtools1.png'
-import women from './images/pexels-andrea-piacquadio-3762368@2x 1 (2).png'
+import women from './images/jhia.png'
 import { NavLink } from 'react-router-dom'
 import { Divide as Hamburger } from 'hamburger-react'
 function Hero() {
@@ -25,10 +25,10 @@ function Hero() {
          <div className=' hidden md:flex flex-auto justify-end space-x-5 items-center' id='cyber'>
             
             <NavLink to={'/user'}>
-            <button className='text-white font-cyberian demo'>LOGIN</button>
+            <button className='text-white font-cyberian demo transition ease-in-out  hover:text-[#DA493D] hover:translate-y-1 hover:scale-110 duration-300'>LOGIN</button>
             </NavLink>
             <NavLink to={'/register'}>
-            <button className='text-white font-cyberian demo'>REGISTER</button>
+            <button className='text-white font-cyberian demo transition ease-in-out hover:text-[#DA493D] hover:translate-y-1 hover:scale-110 duration-300'>REGISTER</button>
             </NavLink>
             
          </div>
@@ -55,7 +55,7 @@ function Hero() {
 
 
          <section>
-          <div className='container flex flex-col-reverse items-center px-6 mx-auto mt-14 md:mt-36 gap-11 md:space-x-[20rem] md:space-y-0 md:flex-row'>
+          <div className='container flex flex-col-reverse items-center px-6 mx-auto mt-14 md:mt-36 gap-11 md:space-x-[8rem] md:space-y-0 md:flex-row'>
             {/* left item */}
             {/* left flexbox */}
             <div className='flex flex-col '>
@@ -73,7 +73,7 @@ function Hero() {
    
              {/* right image */}
               <div className=''>
-                <img src={women} alt="women"  className='md:mb-20'/>
+                <img src={women} alt="women"  className='md:mb-20 md:ml-20 w-[40rem] h-[30rem]'/>
                
               </div>
 

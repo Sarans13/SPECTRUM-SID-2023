@@ -7,6 +7,10 @@
     src: url("./fonts2/JMH Typewriter.ttf")
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #cyber {
     font-family: imported;
 }

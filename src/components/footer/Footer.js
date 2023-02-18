@@ -13,10 +13,10 @@ const footer = () => {
         <img src={Spectrumlogo} alt="" className='h-[108px] w-[100px] mx-auto ' />
        <p className='text-center max-w-5xl'>Lorem ipsum dolor sit amet consectetur. Pellentesque in dui elit arcu nec curabitur in. Vitae in felis et nunc. Et blandit lacinia integer est. In nulla lobortis duis diam. Eros volutpat egestas in urna. Felis parturient porta sed gravida nunc felis. Gravida ut lacus pellentesque eu posuere. Elementum cras nulla non.</p>
        <div className='flex flex-row space-x-20 ho'>
-        <LinkedInIcon fontSize='large' />
-      <EmailOutlinedIcon fontSize='large'/>
-      <InstagramIcon fontSize='large' />
-      <CallOutlinedIcon fontSize='large'/>
+       <NavLink to={'https://www.linkedin.com/company/spectrum-cet/mycompany/'}><LinkedInIcon fontSize='large' /></NavLink> 
+      <NavLink><EmailOutlinedIcon fontSize='large'/></NavLink>
+      <NavLink><InstagramIcon fontSize='large' /></NavLink>
+   
        </div>
  <a href="/">Home</a>
         </div>
