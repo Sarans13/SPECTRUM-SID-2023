@@ -69,3 +69,16 @@ const Description  = () => {
 }
 
 export default Description 
+
+
+
+
+
+{/* <div className=''>
+<div className='relative bg-[#DA493D]  h-[300px] w-[23.5rem] '>
+<div className='absolute hover:top-10 hover:-left-12 '>
+<img src={domain} alt="" className='h-[280px]' />
+</div>
+</div>
+
+</div> */}
