@@ -5,13 +5,15 @@ import { NavLink } from 'react-router-dom'
 const UserDetail = () => {
   return (
     <>
-    <div className='flex flex-col md:space-y-10  md:p-20 md: items-left'>
-        <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>SOME CATCHY LiNE</p>
+     <div className='flex flex-col md:space-y-10 mx-5 mt-10 md:mt-0 md:p-20 md:items-left'>
+        <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>SOME CATCHY LINE</p>
          <p id='cyber' className='text-white text-lg md:text-[102.985px]  '>GET STARTED</p>
-        
     </div>
-     <div className='grid grid-cols-2'>
-    <form className='flex flex-col md:space-y-10  md:p-20 md: items-left  max-w-xl'>
+    <div className='md:mt- mb-20 md:mb-20  mx-5 md:mx-20'>
+        <div className='border-b-2 border-[#CAC9C9]/87  w-auto'></div>
+    </div>
+     <div className='flex flex-col-reverse gap-y-20 md:flex-row  md:space-x-[20rem]'>
+    <form className='flex flex-col space-y-5 mx-10 md:mx-0 md:space-y-10  md:p-20  items-left  md:w-[40rem]'>
       <input type="text" placeholder='Name' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <input type="text" placeholder='Gender' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <input type="email" placeholder='E mail' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
@@ -20,11 +22,11 @@ const UserDetail = () => {
       <input type="text" placeholder='Choose Domain' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <div>
         <NavLink to={'/user'}>
-      <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button></NavLink>
+      <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button></NavLink>
       </div>  
     </form>
 
-    <img src={avatar} alt="noob" className='m-auto bg-zinc-500 px-2 pt-16 rounded-full border-0 ' />
+    <img src={avatar} alt="noob" className='h-44  w-44  m-auto bg-zinc-500 px-2 pt-2  md:px-2  md:pt-16 rounded-full border-0 md:w-auto md:h-auto' />
     </div>
     </>
 
