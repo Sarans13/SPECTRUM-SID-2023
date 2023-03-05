@@ -64,9 +64,9 @@ students to register so as to take part in the internship drive.</p>
 
 
 
-        <div className='md:mb-20  mx-10 md:mx-20'>
+        <div className='md:mt- md:mb-20  mx-5 md:mx-20'>
         <div className='border-b-2 border-[#CAC9C9]/87  w-auto'></div>
-        </div>
+    </div>
          
          </>
 
