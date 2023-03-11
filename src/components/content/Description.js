@@ -5,7 +5,7 @@ const Description  = () => {
     <div className='my-44'>
           <div className='flex flex-col mx-5 md:space-y-10  md:p-20 md:items-left'>
         <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>ALL SOFTWARE, HARDWARE & DESIGN</p>
-         <p id='cyber' className='text-white text-lg md:text-[102.985px]  '>DOMAINS</p>
+         <p id='cyber' className='text-white text-lg md:text-[7rem]  '>DOMAINS</p>
     </div>
     <div className='md:mb-40   mx-5 md:mx-20'>
         <div className='border-b-2 border-[#CAC9C9]/87  w-auto'></div>
@@ -47,21 +47,20 @@ const Description  = () => {
     </div>
     
     <div className='grid grid-rows-3 grid-cols-none space-y-5 md:grid-cols-3 md:grid-rows-none mx-5 mt-10 md:mt-0 md:mx-[7rem]'>
-     <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
-      <p id='cyber' className='text-white text-sm md:text-xl'>CERTIFICATE</p>
-      <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
-
-     </div>
-     <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
-      <p id='cyber' className='text-white text-sm md:text-xl'>CERTIFICATE</p>
-      <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
-
-     </div>
-     <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
-      <p id='cyber' className='text-white text-sm md:text-xl'>CERTIFICATE</p>
-      <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
-
-     </div>
+    
+      <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
+        <p id='cyber' className='text-white text-sm md:text-xl mt-5'>CERTIFICATE</p>
+        <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
+      </div>
+      <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
+        <p id='cyber' className='text-white text-sm md:text-xl'>CERTIFICATE</p>
+        <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
+      </div>
+      <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
+        <p id='cyber' className='text-white text-sm md:text-xl'>CERTIFICATE</p>
+        <p className='text-[#CAC9C9] text-xs md:text-lg ' id='jmh'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .</p>
+      </div>
+   
     </div>
 
     </div>
@@ -74,11 +73,3 @@ export default Description
 
 
 
-{/* <div className=''>
-<div className='relative bg-[#DA493D]  h-[300px] w-[23.5rem] '>
-<div className='absolute hover:top-10 hover:-left-12 '>
-<img src={domain} alt="" className='h-[280px]' />
-</div>
-</div>
-
-</div> */}
