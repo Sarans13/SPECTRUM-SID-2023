@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const UserDetail = () => {
   return (
     <>
-     <div className='flex flex-col md:space-y-10 mx-5 mt-10 md:mt-0 md:p-20 md:items-left'>
+     <div className='flex flex-col md:space-y-10 mx-5 py-10 md:mt-0 md:p-20 md:items-left'>
         <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>SOME CATCHY LINE</p>
          <p id='cyber' className='text-white text-lg md:text-[102.985px]  '>GET STARTED</p>
     </div>
@@ -22,7 +22,7 @@ const UserDetail = () => {
       <input type="text" placeholder='Choose Domain' className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent'/>
       <div>
         <NavLink to={'/user'}>
-      <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button></NavLink>
+      <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] mb-4 md:mb-0 md:py-2 md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]'  >SUBMIT</button></NavLink>
       </div>  
     </form>
 

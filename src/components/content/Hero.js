@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import spectrum from './images/output-onlinepngtools1.png'
-import women from './images/jhia.png'
+import spectrum from '../../images/output-onlinepngtools1.png'
+import women from '../../images/jhia.png'
 import { NavLink } from 'react-router-dom'
 import { Divide as Hamburger } from 'hamburger-react'
 function Hero() {
@@ -44,8 +44,8 @@ function Hero() {
 
             {isOpen &&
            <div id="menu" className="absolute flex flex-col items-center  self-end py-8 mt-10 space-y-6 font-bold bg-[#303636]/30 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-          <div className='text-white' id='cyber'>LOGIN</div>
-          <div className='text-white' id='cyber'>REGISTER</div>
+          <NavLink to={'/user'} className='text-white' id='cyber'>LOGIN</NavLink>
+          <NavLink to={'/register'} className='text-white' id='cyber'>REGISTER</NavLink>
           </div>}
            </div>
 
@@ -61,13 +61,13 @@ function Hero() {
             <div className='flex flex-col '>
                 <div className=''>
                      <h1 id='cyber' className='text-lg text-[#B6B6B6] text-center    md:text-5xl md:text-left md: md: max-w-[50rem] '>SPECTRUM INTERNSHIP DRIVE 2022 </h1>
-                       <p className=' text-[10px] text-center text-[#CAC9C9] mt-7 max-w-[500px] md:text-left md:text-[16px]' id='jmh'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .
+                       <p className=' text-[0.6rem] text-center text-[#CAC9C9] mt-7 max-w-[500px] md:text-left md:text-[1rem]' id='jmh'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum coLorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ac sit interdum commodo convallis sit orci. Leo, et id duis luctus.mmodo convallis .
                       </p>
                 </div>
               {/* EXPLORE BUTTONS */}
              <div className='flex flex-row mt-10 space-x-7'>
-               <button id='cyber' className='border border-[#DA493D] px-2 text-white md:font-[400] md:py-[14.3678px] md:px-[40.0246px] bg-[#DA493D] hover:bg-[#531e1a]' >EXPLORE</button>
-               <button id='cyber' className='border border-[#ffff] text-white font-[400] py-[14.3678px] px-[40.0246px] hover:bg-[#531e1a]' >VIEW BROCHURE</button>
+               <button id='cyber' className='border border-[#DA493D] px-2 py-2 text-white md:font-[400] md:py-5 md:px-10 bg-[#DA493D] hover:bg-[#531e1a]' >EXPLORE</button>
+               <button id='cyber' className='border border-[#ffff] text-sm   md:text-lg w-56 md:w-auto text-white font-[400] py-1 px-10 hover:bg-[#531e1a]' >VIEW BROCHURE</button>
              </div>    
              </div>
    
