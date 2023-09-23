@@ -1,0 +1,69 @@
+.App {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px;
+    /* text-align: center; */
+  }
+  
+  .product--image {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+  }
+  
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 420px;
+    margin: auto 1rem;
+    font-family: arial;
+  }
+  
+  .card h2{
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: whitesmoke;
+    font-weight: bolder;
+  }
+  
+  .description{
+    text-align: justify;
+    color: #CAC9C9DE;
+    margin-bottom: 6px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #DA493D;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .forest{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+  }
+  
+  @media (max-width: 760px) {
+    .App{
+      padding: 5px;
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
+
+    .card button{
+        padding: 6px;
+    }
+  }
+  
+  

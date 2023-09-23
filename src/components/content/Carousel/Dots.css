@@ -1,0 +1,23 @@
+.simpledots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 5px;
+  }
+  
+  .dot.active {
+    background-color: #DA493D; /* Replace with the desired active dot color */
+  }
+  
+  @media (max-width: 300px) {
+    .dot{
+      margin: 1px;
+    }
+  }
+  

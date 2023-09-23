@@ -1,0 +1,6 @@
+.custom-container {
+    max-width: 1280px; /* Set the maximum width to 1280px */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto;
+  }
+  

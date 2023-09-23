@@ -1,0 +1,7 @@
+/* In a separate CSS file or within your React component's CSS-in-JS */
+.custom-container1 {
+    max-width: 100%; /* Set the maximum width to 1280px */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: 0;
+  }
+  
