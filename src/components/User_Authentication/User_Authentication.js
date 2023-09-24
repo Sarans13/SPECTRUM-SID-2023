@@ -70,8 +70,8 @@ const UserDetail = (props) => {
             <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>UI/UX</option>
             <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>VIDEO EDITING</option>
             <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>MULTISIM</option>
-            <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>IOTs</option>
-            <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>EMBEDDED SYSTEM SOFTWARE</option>
+            <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>IOT's/EMBEDDED SYSTEM</option>
+            <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>PLC</option>
           </select>
           <label className='text-justify text-white border-2 p-2 border-[#B6B6B6]'>Embark on a journey of creative learning like never before. All for just ₹49/- only. See you soon! UPI-ID: <span className='font-extrabold'>luciasam282@oksbi</span></label>
           <input

@@ -106,7 +106,7 @@ function App() {
       setDevUrl3("");
     }
 
-    if(userData.Domain === "IOTs"){
+    if(userData.Domain === "IOT's/EMBEDDED SYSTEM"){
       setDevtask1("Will be uploaded soon..");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
@@ -115,7 +115,7 @@ function App() {
       setDevUrl3("");
     }
 
-    if(userData.Domain === "EMBEDDED SYSTEM SOFTWARE"){
+    if(userData.Domain === "PLC"){
       setDevtask1("Will be uploaded soon..");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");

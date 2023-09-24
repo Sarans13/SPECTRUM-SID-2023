@@ -67,14 +67,14 @@ export const productData = [
     id: 8,
     imageurl:
       "https://images.pexels.com/photos/17018384/pexels-photo-17018384/free-photo-of-smart-home.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    name: "IOT's",
-    description: "Network of interconnected physical objects or devices, which enables real-time monitoring, automation, and data-driven insights across various industries, from smart homes to industrial applications, transforming the way we interact with our environment.",
+    name: "IOT's/EMBEDDED SYSTEM",
+    description: "Network of interconnected physical objects or devices, which enables real-time monitoring, automation, and data-driven insights across various industries, from smart homes to industrial applications.Specialised programming that runs on embedded systems, which are computer systems embedded within other devices or products.",
   },
   {
     id: 9,
     imageurl:
       "https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    name: "EMBEDDED SYSTEM SOFTWARE",
-    description: "Specialised programming that runs on embedded systems, which are computer systems embedded within other devices or products.",
+    name: "PLC",
+    description: "A Programmable Logic Controller (PLC) is a specialized computer used in industrial automation to control machinery and processes. It receives input signals, processes them using a programmed logic, and produces output signals to control various devices..",
   },
 ];
