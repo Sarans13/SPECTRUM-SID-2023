@@ -74,8 +74,8 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task1}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'><a href={props.Url1} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask1Submit}>
-              <input type="text" placeholder='Submit Here' value={Task1Link} onChange={handleOnChangeTask1} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' required />
-              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]'>Submit</button>
+              <input type="text" placeholder='Submit Here' value={Task1Link} onChange={handleOnChangeTask1} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled />
+              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' disabled>Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
               {comment1ForTask1 ? comment1ForTask1 : "We wish you all the best"}
@@ -86,8 +86,8 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task2}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'> <a href={props.Url2} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask2Submit}>
-              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' required />
-              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]'>Submit</button>
+              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled />
+              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' disabled>Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
               {comment2ForTask2 ? comment2ForTask2 : "We wish you all the best"}
@@ -98,8 +98,8 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task3}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'> <a href={props.Url3} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask3Submit}>
-              <input type="text" placeholder='Submit Here' value={Task3Link} onChange={handleOnChangeTask3} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' required />
-              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]'>Submit</button>
+              <input type="text" placeholder='Submit Here' value={Task3Link} onChange={handleOnChangeTask3} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled />
+              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' disabled>Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
               {comment3ForTask3 ? comment3ForTask3 : "We wish you all the best"}
