@@ -128,7 +128,7 @@ function App() {
       setDevtask1("Will be uploaded soon..");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/11KS8CWHRQbWdeV1ZNG_HfinsLdeH57AAZHNVYM_5b04/edit?usp=drivesdk");
       setDevUrl2("");
       setDevUrl3("");
     }

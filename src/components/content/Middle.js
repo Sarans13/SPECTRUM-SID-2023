@@ -30,8 +30,8 @@ function Middle() {
           <div className='flex flex-col w-[20rem] md:w-1/2'>
             <h1 id='cyber' className='text-[#B6B6B6]  text-sm  md:text-4xl  md:w-[28.3rem]'>LEARN AND GROW</h1>
             <p id='jmh' className='text-[#CAC9C9] text-opacity-87 text-sm md:w-[32rem] md:h-[6.5rem] mt-5'>In Spectrum Internship Drive,We believe that the journey to success is paved with continuous learning and personal growth. Thus ,we're committed to providing you all with the tools, resources, and opportunities you need to thrive. When you join SID, you'll be welcomed into a culture of curiosity and innovation.</p>
-            <button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  md:w-[14rem] md:h-[3rem] mt-10 '>JOIN</button>
-            <p id='jmh' className='text-[#E5E5E5] mt-3'>Already registered? <NavLink to="/user" className='text-[#E86555]'>sign in</NavLink> </p>
+            <NavLink to="/Register"><button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  md:w-[14rem] md:h-[3rem] mt-10 '>JOIN</button></NavLink>
+            <p id='jmh' className='text-[#E5E5E5] mt-3'>Already registered? <NavLink to="/Register" className='text-[#E86555]'>sign in</NavLink> </p>
           </div>
         </div>
 
