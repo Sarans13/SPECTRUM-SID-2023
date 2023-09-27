@@ -20,8 +20,8 @@ const Overview = () => {
           <div>
             <div className='  grid grid-rows-4 gap-y-5 md:grid-cols-2 md:grid-rows-2 md:gap-x-10  md:gap-y-10 mx-10 md:mx-0 md:ml-44'>
               <div className='bg-[#CAC9C9]/40 max-w-[350px] p-3 h-[150px] md:h-[200px]'>
-                <p id='cyber' className='text-white text-sm md:text-xl'>REGESTRATiON PHASE</p>
-                <p id='jmh' className='text-xs md:text-sm text-[#CAC9C9]'>Students need to register themselves at https://internship.spectrumcet.com . It is mandatory for all the students to register so as to take part in the internship drive</p>
+                <p id='cyber' className='text-white text-sm md:text-xl'>REGISTRATiON PHASE</p>
+                <p id='jmh' className='text-xs md:text-sm text-[#CAC9C9]'>Students need to register themselves at https://spectrum-sid-2023.vercel.app/ . It is mandatory for all the students to register so as to take part in the internship drive</p>
               </div>
               <div className='bg-[#CAC9C9]/40 max-w-[350px] h-[150px] p-3 md:h-[200px]'>
                 <p id='cyber' className='text-white text-sm md:text-xl'>TASK 1 :-</p>

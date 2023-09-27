@@ -10,6 +10,11 @@ const footer = () => {
         <div className='flex flex-col items-center text-[#FFFFFF] space-y-10'>
         <img src={Spectrumlogo} alt="" className='h-14 w-14 md:h-[7rem] md:w-[6.58rem] mx-auto ' />
        <p className='text-center text-xs md:text-lg max-w-5xl'>Spectrum, a digital platform,  serves as an online presence, offering information, services, or products to a global audience. We combine design, content, and functionality to engage visitors, convey your message, and achieve specific goals for the betterment of every individual out there.</p>
+      <div>
+      <p className='text-center text-xs md:text-lg max-w-5xl'>For more details contact:</p>
+       <p className='text-center text-xs md:text-lg max-w-5xl'> Subhasish Pattanaik: 6372729539</p>
+       <p className='text-center text-xs md:text-lg max-w-5xl'> Prachoorya Preeyambada - 7008764077</p>
+      </div>
        <div className='flex flex-row space-x-20 ho'>
        <NavLink to={'https://www.linkedin.com/company/spectrum-cet/mycompany/'}><LinkedInIcon fontSize='large' /></NavLink> 
       <a href="mailto: dev.spectrum.cetb@gmail.com"><EmailOutlinedIcon fontSize='large'/></a>
