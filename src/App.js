@@ -53,82 +53,82 @@ function App() {
     setComments2(userData.Comments2);
     setComments3(userData.Comments3);
     if(userData.Domain === "APP DEVELOPMENT"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon..");
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/1-TGLzo_jp8qFqDfAbGhQWBjgAMgcPDNSqf0dt5wp2pc/edit?usp=sharing");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "AI/ML"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon..");
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/1-mD2GSOxt0o5ugmQ54j5gsd-5l00cxS9/edit?usp=sharing&ouid=103057392790336651380&rtpof=true&sd=true");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "ILLUSTRATION"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/1hGAgkS004hxMcSAdwxOHWLoQOYew-xwZQvQ75VT5USY/edit?usp=sharing");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "UI/UX"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/1xFqqOEltRWvzqFwL9ewuGArYZSMZn-h9jVq_wBNREhM/edit");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "VIDEO EDITING"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/11jXYAv-zcMfXEoU9u4HLgwW7B23Y8sn0Sd064Tn4t7E/edit");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "MULTISIM"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/14pi17bEPyfIzTbXM2rZ6nAYvrOdDij7ivk7E6xuby7o/edit");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "IOT's/EMBEDDED SYSTEM"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/11jXYAv-zcMfXEoU9u4HLgwW7B23Y8sn0Sd064Tn4t7E/edit");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "PLC"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/11jXYAv-zcMfXEoU9u4HLgwW7B23Y8sn0Sd064Tn4t7E/edit");
       setDevUrl2("");
       setDevUrl3("");
     }
 
     if(userData.Domain === "WEB DEVELOPMENT"){
-      setDevtask1("Will be uploaded soon..");
+      setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("");
+      setDevUrl1("https://docs.google.com/document/d/11KS8CWHRQbWdeV1ZNG_HfinsLdeH57AAZHNVYM_5b04/edit?usp=sharing");
       setDevUrl2("");
       setDevUrl3("");
     }
