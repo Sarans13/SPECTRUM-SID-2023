@@ -110,7 +110,7 @@ function App() {
       setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("https://docs.google.com/document/d/11jXYAv-zcMfXEoU9u4HLgwW7B23Y8sn0Sd064Tn4t7E/edit");
+      setDevUrl1("https://docs.google.com/document/d/1-YDML61wHAHyjvyiaDXFR7KZDkxuCjaKF-8G2QJ4uQY/edit?usp=sharing");
       setDevUrl2("");
       setDevUrl3("");
     }
@@ -119,7 +119,7 @@ function App() {
       setDevtask1("Deadline: 09 oct 2023");
       setDevtask2("Will be uploaded soon.."); 
       setDevtask3("Will be uploaded soon..");
-      setDevUrl1("https://docs.google.com/document/d/11jXYAv-zcMfXEoU9u4HLgwW7B23Y8sn0Sd064Tn4t7E/edit");
+      setDevUrl1("https://docs.google.com/document/d/1Ts-io6aMURRupI8mPVQS48D5Y9IAc4F6yXT-q6cThFU/edit?usp=sharing");
       setDevUrl2("");
       setDevUrl3("");
     }
