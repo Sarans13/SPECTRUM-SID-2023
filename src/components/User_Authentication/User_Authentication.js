@@ -82,7 +82,7 @@ const UserDetail = (props) => {
             required
           />
           <div>
-            <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] mb-4 md:mb-0 md:py-2 md:px-[40.0246px] hover:bg-[#531e1a] bg-[#DA493D]' >SUBMIT</button>
+            <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] mb-4 md:mb-0 md:py-2 md:px-[40.0246px] hover:bg-[#531e1a] bg-[#531e1a]' disabled>SUBMIT</button>
           </div>
         </form>
         <img src={avatar} alt="noob" className='h-44  w-44  m-auto bg-zinc-500 px-2 pt-2  md:px-2  md:pt-16 rounded-full border-0 md:w-auto md:h-auto' />
