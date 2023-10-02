@@ -57,12 +57,12 @@ const UserDetail = (props) => {
       </div>
       <div className='flex flex-col-reverse gap-y-20 md:flex-row'>
         <form className='flex flex-col space-y-5 mx-10 md:mx-0 md:space-y-10  md:p-20  items-left  md:w-[40rem]' method='POST' onSubmit={handleSubmit}>
-          <input type="text" placeholder='Name' name='Name' value={UserData.Name} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' required />
-          <input type="text" placeholder='Gender' name='Gender' value={UserData.Gender} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' required />
-          <input type="email" placeholder='E mail' name='Email' value={UserData.Email} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' required />
-          <input type="password" placeholder='Password' name='Password' value={UserData.Password} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' required />
-          <input type="password" placeholder='Confirm Password' name='ConfirmPassword' value={UserData.ConfirmPassword} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' required />
-          <select value={UserData.Domain} name='Domain' onChange={PostUserData} className='text-[#B6B6B6] p-2 border-2  border-[#B6B6B6] bg-transparent' required>
+          <input type="text" placeholder='Name' name='Name' value={UserData.Name} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' disabled/>
+          <input type="text" placeholder='Gender' name='Gender' value={UserData.Gender} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' disabled />
+          <input type="email" placeholder='E mail' name='Email' value={UserData.Email} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' disabled />
+          <input type="password" placeholder='Password' name='Password' value={UserData.Password} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' disabled />
+          <input type="password" placeholder='Confirm Password' name='ConfirmPassword' value={UserData.ConfirmPassword} onChange={PostUserData} className='text-white p-2 border-2  border-[#B6B6B6] bg-transparent' disabled />
+          <select value={UserData.Domain} name='Domain' onChange={PostUserData} className='text-[#B6B6B6] p-2 border-2  border-[#B6B6B6] bg-transparent' disabled>
             <option value="" disabled selected hidden>Choose a Domain</option>
             <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>WEB DEVELOPMENT</option>
             <option className='text-black p-2 border-2  border-[#B6B6B6] bg-grey'>APP DEVELOPMENT</option>
@@ -80,7 +80,7 @@ const UserDetail = (props) => {
             accept="image/*"
             onChange={handleImageUpload}
             className="text-white p-2 border-2 border-[#B6B6B6] bg-transparent"
-            required
+            disabled
           />
           <div>
             <button id='cyber' className='border border-[#DA493D] px-4 py-2 text-white md:font-[400] mb-4 md:mb-0 md:py-2 md:px-[40.0246px] hover:bg-[#531e1a] bg-[#531e1a]'>SUBMIT</button>
