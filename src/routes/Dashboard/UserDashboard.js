@@ -14,6 +14,109 @@ const UserDashboard = (props) => {
   const comment2ForTask2 = props.Comments2;
   const comment3ForTask3 = props.Comments3;
 
+  const Round1_Rejected_emails = [
+    '13.abhishekdora@gmail.com',
+    'Riteshkumarjena70@gmail.com',
+    'abhijeetpadhi123@gmail.com',
+    'abhisekprasadmallick@gmail.com',
+    'abinashdash210@gmail.com',
+    'adityapati2004@gmail.com',
+    'ajiteshkrishna70@gmail.com',
+    'akash.sahoo12356@gmail.com',
+    'akshaykumarsahoo2002@gmail.com',
+    'ananyaglory24@gmail.com',
+    'ananyaray.w@gmail.com',
+    'ananyasahani1229@gmail.com',
+    'anishanaik2009@gmail.com',
+    'anshumanish04@gmail.com',
+    'arkaabhilash21@gmail.com',
+    'arpitab2024@gmail.com',
+    'arpitapattnaik1110@gmail.com',
+    'atrayeejha@gmail.com',
+    'aurosritaswain@gmail.com',
+    'ayaneshdash8@gmail.com',
+    'ayushapattnaik26@gmail.com',
+    'bablybb2004@gmail.com',
+    'barikrashmita111@gmail.com',
+    'bastabamlan@gmail.com',
+    'beheraashish900@gmail.com',
+    'ch.prernasubudhi@gmail.com',
+    'chinmayeepatra805@gmail.com',
+    'dasabhinab2007@gmail.com',
+    'dassatish025@gmail.com',
+    'dassmohit12@gmail.com',
+    'deepakbehera8998@gmail.com',
+    'dhrivesh46@gmail.com',
+    'gayatri.n2019@gmail.com',
+    'gopalcriro123@gmail.com',
+    'gurujyotisahu@gmail.com',
+    'iamayushi16mohapatra@gmail.com',
+    'iemsalpana10b01@gmail.com',
+    'ishani.tripathy1602@gmail.com',
+    'jeebanjyotii07@gmail.com',
+    'jjitu2802@gmail.com',
+    'karbidisha1979@gmail.com',
+    'lagnajita2003@gmail.com',
+    'lakshsatapathy@gmail.com',
+    'lgreeshmasree123@gmail.com',
+    'lilimachoudhury0@gmail.com',
+    'mahapatrasweta25@gmail.com',
+    'manaskumarmishra2003@gmail.com',
+    'mehekdev123@gmail.com',
+    'mohantyaditya32@gmail.com',
+    'mohantyaurosampad@gmail.com',
+    'mundagayatri06@gmail.com',
+    'navneetapattnaik03@gmail.com',
+    'patrachinmayee10@gmail.com',
+    'pinkudash16@gmail.com',
+    'piviwi3494@fesgrid.com',
+    'prateekm1000@gmail.com',
+    'pratikaryan3300@gmail.com',
+    'princepriyam0671@gmail.com',
+    'prionapriti004@gmail.com',
+    'priyadarshnipadhy1872@gmail.com',
+    'rajatsekharonline@gmail.com',
+    'rakeshchoudhury492@gmail.com',
+    'renukatripathy255@gmail.com',
+    'riteshkumarjena70@gmail.com',
+    'ritishnasunu@gmail.com',
+    'rockstargamers647@gmail.com',
+    'rudrakshparida.99@gmail.com',
+    'sadarockstar6@gmail.com',
+    'sahoovivek809@gmail.com',
+    'saialish15@gmail.com',
+    'sandipanbiswalbbsr@gmail.com',
+    'sanketbarik24@gmail.com',
+    'sarojnyk2023@gmail.com',
+    'satyaprangya0@gmail.com',
+    'sayanshreemohapatra51@gmail.com',
+    'sayonikag@gmail.com',
+    'shibaniprity@gmail.com',
+    'shreeyanshimishra30@gmail.com',
+    'shreyashp088@gmail.com',
+    'shubhabratadash687@gmail.com',
+    'sipam2701@gmail.com',
+    'sizzlingrainy@gmail.com',
+    'snigdhadeep95@gmail.com',
+    'sonalipalo2004@gmail.com',
+    'souravsahoo924@gmail.com',
+    'sovansekharsenapati2005@gmail.com',
+    'subham.majumdar727@gmail.com',
+    'subham2002gupta@gmail.com',
+    'sulagnashatarupa@gmail.com',
+    'suman43soumesh@gmail.com',
+    'suryakanta2k05@gmail.com',
+    'sushildash447@gmail.com',
+    'sushmitasoren685@gmail.com',
+    'swarn6622kumar@gmail.com',
+    'swarnkumar.101@gmail.com',
+    'swostikmohapatra2003@gmail.com',
+    'text2hk@gmail.com',
+    'theenandakishore@gmail.com',
+    'yasikaagarwal111@gmail.com',
+    'sample2@gmail.com'
+  ]
+
   const handleOnChangeTask1 = (e) => {
     setTask1Link(e.target.value);
   }
@@ -37,6 +140,13 @@ const UserDashboard = (props) => {
 
   const handleTask2Submit = async (e) => {
     e.preventDefault();
+
+    if (Round1_Rejected_emails.includes(props.email)) {
+      // Do nothing or display a message
+      alert('you are not eligible for this round');
+      return;
+    }
+
     const dataRef = doc(db, "Students", props.email);
     await updateDoc(dataRef, {
       task2Link: Task2Link,
@@ -65,6 +175,11 @@ const UserDashboard = (props) => {
           <img src={avatar} alt="noob" className=']  bg-zinc-600 border-0 rounded-full  pt-10 m-auto w-56 h-56  items-center ' />
           <h3 className='text-center text-white text-3xl '>{props.name}</h3>
           <h2 className=' text-center py-1 px-3  bg-[#5B5F5F] text-[#D9D9D9] max-w-xs'>{props.domain}</h2>
+          <h2 className='text-center py-1 px-3 max-w-xs text-[#D9D9D9] bg-[#5B5F5F] mt-1'>
+            {Round1_Rejected_emails.includes(props.email)
+              ? "Sorry, You are not eligible for Task 2"
+              : "Welcome to Task 2"}
+          </h2>
         </div>
       </div>
       <div className=' py-20 md:py-40 mx-5' id='cyber'>
@@ -74,7 +189,7 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task1}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'><a href={props.Url1} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask1Submit}>
-              <input type="text" placeholder='Submit Here' value={Task1Link} onChange={handleOnChangeTask1} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled/>
+              <input type="text" placeholder='Submit Here' value={Task1Link} onChange={handleOnChangeTask1} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled />
               <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' >Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
@@ -86,8 +201,8 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task2}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'> <a href={props.Url2} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask2Submit}>
-              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled />
-              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' disabled>Submit</button>
+              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent'/>
+              <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' >Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
               {comment2ForTask2 ? comment2ForTask2 : "We wish you all the best"}
