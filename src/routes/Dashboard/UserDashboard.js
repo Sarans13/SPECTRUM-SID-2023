@@ -147,11 +147,13 @@ const UserDashboard = (props) => {
       return;
     }
 
-    const dataRef = doc(db, "Students", props.email);
-    await updateDoc(dataRef, {
-      task2Link: Task2Link,
-    });
-    alert("Task Submitted");
+    // const dataRef = doc(db, "Students", props.email);
+    // await updateDoc(dataRef, {
+    //   task2Link: Task2Link,
+    // });
+    // alert("Task Submitted");
+    alert("Submissions Closed");
+
   }
 
   const handleTask3Submit = async (e) => {
@@ -201,7 +203,7 @@ const UserDashboard = (props) => {
             <p className=' text-xs md:text-sm pb-10' id='jmh'>{props.task2}</p>
             <button type='button' className='bg-transparent w-[15rem] px-2 py-2  text-sm md:font-normal md:w-[25.5rem] border-white border-4 md:py-3 md:px-24'> <a href={props.Url2} target="_blank" rel="noopener noreferrer">View Assignment</a></button>
             <form onSubmit={handleTask2Submit}>
-              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent'/>
+              <input type="text" placeholder='Submit Here' value={Task2Link} onChange={handleOnChangeTask2} className='text-white text-center w-[15rem] md:w-[25.5rem]  p-2 border-4 mb-4 border-white bg-transparent' disabled/>
               <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' >Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
