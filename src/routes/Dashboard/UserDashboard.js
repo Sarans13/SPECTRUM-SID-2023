@@ -264,15 +264,16 @@ const UserDashboard = (props) => {
   const handleTask3Submit = async (e) => {
     e.preventDefault();
 
-    if (Round1_Rejected_emails.includes(props.email) || Round2_Rejected_emails.includes(props.email)) {
-      alert('you are not eligible for this round');
-      return;
-    }
-    const dataRef = doc(db, "Students", props.email);
-    await updateDoc(dataRef, {
-      task3Link: Task3Link,
-    });
-    alert("Task Submitted");
+    // if (Round1_Rejected_emails.includes(props.email) || Round2_Rejected_emails.includes(props.email)) {
+    //   alert('you are not eligible for this round');
+    //   return;
+    // }
+    // const dataRef = doc(db, "Students", props.email);
+    // await updateDoc(dataRef, {
+    //   task3Link: Task3Link,
+    // });
+    // alert("Task Submitted");
+    alert("Submissions Closed")
   }
 
 
@@ -290,7 +291,7 @@ const UserDashboard = (props) => {
           <h2 className='text-center py-1 px-3 max-w-xs text-[#D9D9D9] bg-[#5B5F5F] mt-1'>
             {Round1_Rejected_emails.includes(props.email) || Round2_Rejected_emails.includes(props.email)
               ? "Sorry, You are not eligible for Task 3"
-              : "Welcome to Task 3"}
+              : "Thank You For Your Participation. Wait until the results."}
           </h2>
 
         </div>
@@ -330,7 +331,7 @@ const UserDashboard = (props) => {
               <button type='submit' className='text-white w-[15rem] px-2 py-2 border-2 md:py-3 md:w-[25.5rem] bg-[#DA493D] border-[#DA493D]' >Submit</button>
             </form>
             <p className='bg-transparent md:font-normal md:w-[25.5rem] md:py-1 border-4' id='jmh'>
-              {comment3ForTask3 ? comment3ForTask3 : "We wish you all the best"}
+              {comment3ForTask3 ? comment3ForTask3 : "Round Wrapped Up"}
             </p>
           </div>
 
