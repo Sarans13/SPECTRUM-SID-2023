@@ -174,7 +174,6 @@ const UserDashboard = (props) => {
     '13.abhishekdora@gmail.com',
     'lakshsatapathy@gmail.com',
     'Riteshkumarjena70@gmail.com',
-    'abhijeetsahu2003@gmail.com',
     'abinashdash210@gmail.com',
     'adityapati2004@gmail.com',
     'akash.sahoo12356@gmail.com',
@@ -220,7 +219,6 @@ const UserDashboard = (props) => {
     'sadarockstar6@gmail.com',
     'sahoovivek809@gmail.com',
     'saialish15@gmail.com',
-    'saketnanda164@gmail.com',
     'sample3@gmail.com'
   ];
 
