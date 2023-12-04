@@ -113,7 +113,7 @@ function Hero({ outputForAppJs}) {
               <p className={`text-[0.6rem] text-center text-[#CAC9C9] mt-7 max-w-[500px] ${window.innerWidth < 768 ? 'max-w-[350px] ml-6' : 'md:text-left md:text-[1rem]'}`} id='jmh'>Are you eager to kickstart your career and gain real-world experience in your chosen field? Look no further! Spectrum  internship drive is your gateway to a world of opportunities.Don't miss this chance to grow, learn, and make a difference. Join our internship drive today and embark on a journey of professional growth and personal development.
               </p>
               {/* EXPLORE BUTTONS */}
-              {window.innerWidth >= 500 && (
+              {window.innerWidth >= 768 && (
                 <div className={`flex flex-row mt-10 space-x-7 ${isMobile ? 'justify-center flex-col' : ''}`}>
                   <button id='cyber' className='border border-[#DA493D] px-2 py-2 text-white md:font-[400] md:py-5 md:px-10 bg-[#DA493D] hover:bg-[#531e1a]'  onClick={scrollToDescription}>EXPLORE</button>
                   <NavLink to={'/register'}>
@@ -122,7 +122,7 @@ function Hero({ outputForAppJs}) {
                 </div>
               )}
 
-              {window.innerWidth < 500 && (
+              {window.innerWidth < 768 && (
                 <div className="flex flex-col mt-10 ml-6 space-y-2">
                 <button id='cyber' className='border border-[#DA493D] w-full py-2 text-white md:font-[400] md:py-5 md:px-10 bg-[#DA493D] hover:bg-[#531e1a]' onClick={scrollToDescription}>
                   EXPLORE

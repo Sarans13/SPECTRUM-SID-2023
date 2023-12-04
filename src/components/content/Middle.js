@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './herostylee2.css'
 import robot from '../../images/andrea-de-santis-zwd435-ewb4-unsplash 1 (1).png'
 import google from '../../images/image 1.png'
@@ -7,36 +7,57 @@ import azure from '../../images/image 3.png'
 import amazon from '../../images/image 2.png'
 import { NavLink } from 'react-router-dom'
 
+
 function Middle() {
+  const [isWideScreen, setIsWideScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWideScreen(window.innerWidth >= 1168);
+    };
+
+    // Initial check
+    handleResize();
+
+    // Event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <>
       {/* flex 2 container for middle portion */}
-      <div className='container flex flex-col items-center gap-y-10 mx-auto md:pl-[13rem] mt-20 md:flex-row custom-container'>
+        <div className={`container flex flex-col items-center justify-center gap-y-10 mx-auto mt-20 md:flex-row custom-container md:flex-wrap ${isWideScreen ? 'flex-wrap' : ''}`}>
 
-        {/* left image */}
-        <div className='w-sm md:w-1/2 '>
-          <div className='bg-[#DA493D] h-[28rem] w-[19rem] md:h-[35rem] md:w-[25rem]' >
-            <div className='flex flex-col items-center pt-5 mt-5 ml-4 mr-4 '>
+          {/* left image */}
+          <div className='w-sm md:w-1/2 flex flex-col items-center justify-center'>
+            <div className='bg-[#DA493D] h-[28rem] w-[19rem] md:h-[35rem] md:w-[25rem]' >
+              <div className='flex flex-col items-center pt-5 mt-5 ml-4 mr-4 '>
 
-              <img src={robot} alt="" className='' />
-              <p className='flex  items-center text-white text-sm md:w-70 pt-5  text-center' id='jmh' >“ Ctrl + Alt + Delete your problems; Ctrl + S your progress." “</p>
+                <img src={robot} alt="" className='' />
+                <p className='flex  items-center text-white text-sm md:w-70 pt-5  text-center' id='jmh' >“ Ctrl + Alt + Delete your problems; Ctrl + S your progress." “</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* right text */}
+          {/* right text */}
 
-        <div>
-          <div className='flex flex-col w-[20rem] md:w-1/2'>
-            <h1 id='cyber' className='text-[#B6B6B6]  text-sm  md:text-4xl  md:w-[28.3rem]'>LEARN AND GROW</h1>
-            <p id='jmh' className='text-[#CAC9C9] text-opacity-87 text-sm md:w-[32rem] md:h-[6.5rem] mt-5'>In Spectrum Internship Drive,We believe that the journey to success is paved with continuous learning and personal growth. Thus ,we're committed to providing you all with the tools, resources, and opportunities you need to thrive. When you join SID, you'll be welcomed into a culture of curiosity and innovation.</p>
-            <NavLink to="/Register"><button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  md:w-[14rem] md:h-[3rem] mt-10 '>JOIN</button></NavLink>
-            <p id='jmh' className='text-[#E5E5E5] mt-3'>Already registered? <NavLink to="/Register" className='text-[#E86555]'>sign in</NavLink> </p>
+          <div>
+            <div className='flex flex-col md:text-center w-[20rem] w-sm md:w-1/2'>
+              <h1 id='cyber' className='text-[#B6B6B6]  text-sm  md:text-4xl  md:w-[32rem]'>LEARN AND GROW</h1>
+              <p id='jmh' className='text-[#CAC9C9] text-opacity-87 text-sm md:w-[32rem] md:h-[6.5rem] mt-5'>The Spectrum Internship Drive is founded on the belief that the path to success is illuminated by continuous learning and personal growth. Our commitment is unwavering — we are dedicated to equipping you with the essential tools, abundant resources, and a myriad of opportunities to help you not just succeed but thrive in your journey.</p>
+              <div className='md:w-[32rem]'>
+              <NavLink to="/Register"><button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  mx-auto md:w-[14rem] md:h-[3rem] mt-10 '>JOIN</button></NavLink>
+              <p id='jmh' className='text-[#E5E5E5] mt-3'>Already registered? <NavLink to="/Register" className='text-[#E86555]'>sign in</NavLink> </p>
+              </div>
+            </div>
           </div>
+
+
         </div>
-
-
-      </div>
 
       {/* <div className='pb-20 pt-10 md:py-36'> */}
       <div className='pb-20 pt-10'>
