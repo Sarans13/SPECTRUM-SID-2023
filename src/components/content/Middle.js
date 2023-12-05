@@ -13,7 +13,7 @@ function Middle() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsWideScreen(window.innerWidth >= 1168);
+      setIsWideScreen(window.innerWidth >= 1040);
     };
 
     // Initial check
@@ -30,7 +30,7 @@ function Middle() {
   return (
     <>
       {/* flex 2 container for middle portion */}
-        <div className={`container flex flex-col items-center justify-center gap-y-10 mx-auto mt-20 md:flex-row custom-container md:flex-wrap ${isWideScreen ? 'flex-wrap' : ''}`}>
+        <div className={`container flex flex-col items-center justify-center gap-y-16 mx-auto mt-32 md:flex-row custom-container md:flex-wrap ${isWideScreen ? 'flex-wrap' : ''}`}>
 
           {/* left image */}
           <div className='w-sm md:w-1/2 flex flex-col items-center justify-center'>
@@ -46,11 +46,14 @@ function Middle() {
           {/* right text */}
 
           <div>
-            <div className='flex flex-col md:text-center w-[20rem] w-sm md:w-1/2'>
-              <h1 id='cyber' className='text-[#B6B6B6]  text-sm  md:text-4xl  md:w-[32rem]'>LEARN AND GROW</h1>
+            <div className={`flex flex-col w-[20rem] w-sm md:w-1/2 ${isWideScreen ? '' : 'text-center'}`}>
+               {window.innerWidth >= 768 && ( <h1 id='cyber' className='text-[#B6B6B6]  text-4xl  md:w-[32rem]'>LEARN AND GROW</h1>)}
+               {window.innerWidth < 768 && (
+                  <h1 id='cyber' className='text-[#B6B6B6] text-2xl md:w-[32rem]'>LEARN AND GROW</h1>
+              )}
               <p id='jmh' className='text-[#CAC9C9] text-opacity-87 text-sm md:w-[32rem] md:h-[6.5rem] mt-5'>The Spectrum Internship Drive is founded on the belief that the path to success is illuminated by continuous learning and personal growth. Our commitment is unwavering — we are dedicated to equipping you with the essential tools, abundant resources, and a myriad of opportunities to help you not just succeed but thrive in your journey.</p>
               <div className='md:w-[32rem]'>
-              <NavLink to="/Register"><button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  mx-auto md:w-[14rem] md:h-[3rem] mt-10 '>JOIN</button></NavLink>
+              <NavLink to="/Register"><button id='cyber' className='border border-[#DA493D] text-white bg-[#DA493D]  mx-auto w-[14rem] h-[3rem] mt-10 '>JOIN</button></NavLink>
               <p id='jmh' className='text-[#E5E5E5] mt-3'>Already registered? <NavLink to="/Register" className='text-[#E86555]'>sign in</NavLink> </p>
               </div>
             </div>
@@ -60,7 +63,7 @@ function Middle() {
         </div>
 
       {/* <div className='pb-20 pt-10 md:py-36'> */}
-      <div className='pb-20 pt-10'>
+      <div>
         {/* <div className='py-28 md:py-44'> */}
       </div>
       {/* flex box container ends */}

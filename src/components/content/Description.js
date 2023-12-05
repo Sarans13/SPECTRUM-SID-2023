@@ -23,11 +23,11 @@ const Description = () => {
   };
   return (
     <div className='my-20'>
-      <div className='flex flex-col mx-5 md:space-y-10  md:p-20 md:items-left'>
-        <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>ALL SOFTWARE, HARDWARE & DESIGN</p>
+      <div className='flex flex-col mx-5 md:space-y-10  lg:p-20 md:items-left'>
+        <p id='cyber' className='text-[#B6B6B6] text-lg lg:text-5xl md:text-4xl '>ALL SOFTWARE, HARDWARE & DESIGN</p>
         {/* <p id='cyber' className='text-white text-lg md:text-[7rem]  '>DOMAINS</p> */}
         <div className="forest">
-        <p id='cyber' className='text-white text-lg md:text-[7rem]'>DOMAINS</p>
+        <p id='cyber' className='text-white text-lg lg:text-[7rem] md:text-[5rem]'>DOMAINS</p>
         <div className="Simpledots">
           <Dots activeIndex={activeIndex} totalDots={product.length}/>
         </div>
