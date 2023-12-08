@@ -69,8 +69,8 @@ const Description = () => {
       </div>
 
       <div className='flex flex-col md:space-y-10 mx-5 mt-10 md:mt-0 md:p-20 md:items-left'>
-        <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>WHY SHOULD YOU</p>
-        <p id='cyber' className='text-white text-lg md:text-[102.985px]  '>PARTICIPATE</p>
+        <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl'>WHY SHOULD YOU</p>
+        <p id='cyber' className='text-white text-lg lg:text-[102.985px] md:text-[80px]'>PARTICIPATE</p>
       </div>
 
       <div className='md:mt- md:mb-20  mx-5 md:mx-20'>
@@ -79,15 +79,15 @@ const Description = () => {
 
       <div className='grid grid-rows-3 grid-cols-none space-y-5 md:grid-cols-3 md:grid-rows-none mx-5 mt-10 md:mt-0 md:mx-[7rem] gap-10'>
 
-        <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
-          <p id='cyber' className='text-white text-sm md:text-xl mt-5 text-center'>CERTIFICATE</p>
+        <div className='flex flex-col flex-wrap space-y-3 md:space-y-10'>
+          <p id='cyber' className='text-white text-sm md:text-xl mt-5 text-center md:mb-6 lg:mb-0'>CERTIFICATE</p>
           <p className='text-[#CAC9C9] text-xs md:text-lg text-justify ' id='jmh'>We offer certificates to acknowledge your valuable contributions and skills acquired during your time with us. Our certificates testify to your dedication and are a valuable addition to your professional portfolio.</p>
         </div>
-        <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
+        <div className='flex flex-col flex-wrap space-y-3 md:space-y-10'>
           <p id='cyber' className='text-white text-sm md:text-xl text-center'>SKILL DEVELOPMENT</p>
           <p className='text-[#CAC9C9] text-xs md:text-lg text-justify' id='jmh'>Throughout your tenure with us, you'll explore strengths, overcome challenges, and refine your abilities. This experience shapes your professional journey and empowers personal growth, preparing you for excellence in future endeavors.</p>
         </div>
-        <div className='max-w-[400px] flex flex-col space-y-3 md:space-y-10'>
+        <div className='flex flex-col flex-wrap space-y-3 md:space-y-10'>
           <p id='cyber' className='text-white text-sm md:text-xl text-center'>RESUME ENHANCEMENT</p>
           <p className='text-[#CAC9C9] text-xs md:text-lg text-justify' id='jmh'>We provide students opportunities for practical experience, enriching their resumes and bolstering their qualifications. Listing these internships demonstrates candidates' commitment to real-world skill acquisition, increasing appeal to potential employers.</p>
         </div>
