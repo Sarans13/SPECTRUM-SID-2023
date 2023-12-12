@@ -50,7 +50,7 @@ const UserDetail = (props) => {
     <>
       <div className='flex flex-col md:space-y-10 mx-5 py-10 md:mt-0 md:p-20 md:items-left'>
         <p id='cyber' className='text-[#B6B6B6] text-lg md:text-5xl   '>HURRY UP!</p>
-        <p id='cyber' className='text-white text-lg md:text-[102.985px]  '>lET'S GET STARTED</p>
+        <p id='cyber' className='text-white text-lg lg:text-[102.985px] md:text-5xl'>lET'S GET STARTED</p>
       </div>
       <div className='md:mt- mb-20 md:mb-20  mx-5 md:mx-20'>
         <div className='border-b-2 border-[#CAC9C9]/87  w-auto'></div>

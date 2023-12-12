@@ -2,9 +2,16 @@ import React from "react";
 import sigma from "../../images/sigma.png";
 
 const Overview = () => {
+  const customStyles = {
+    '.my-custom-class > :not([hidden]) ~ :not([hidden])': {
+      '--tw-space-x-reverse': 0,
+      'margin-right': '0', 
+      'margin-left': '0', 
+    },
+  };
   return (
     <>
-      <div className="flex flex-col justify-center sm:mx-5 md:space-y-10  md:p-10 lg:mx-10 lg:p-20">
+      <div className="flex flex-col justify-center mx-5 md:space-y-10  md:p-10  lg:p-[3rem]">
         <p id="cyber" className="text-lg text-[#B6B6B6] md:text-5xl   ">
           STEPS TO GET STARTED WITH ..
         </p>
@@ -13,7 +20,7 @@ const Overview = () => {
         </p>
       </div>
 
-      <div className="mx-10  sm:mx-5 md:mx-20 md:mb-10">
+      <div className="mx-5 md:mx-20 md:mb-10">
         <div className="border-[#CAC9C9]/87 w-auto  border-b-2"></div>
       </div>
       <section className="mb-20 md:mx-20 ">
@@ -29,9 +36,9 @@ const Overview = () => {
             alt="software geek "
             className="mx-auto h-56 w-44  md:h-auto md:w-auto"
           />
-          <div>
-            <div className="md:ml-5 grid grid-rows-4 place-items-center gap-y-5 md:mx-0 md:ml-44 lg:grid-cols-2 lg:grid-rows-2 md:gap-x-5 md:gap-y-5">
-              <div className="flex h-full sm:max-w-[350px] flex-col bg-[#CAC9C9]/40 p-3 md:max-w-[500px]">
+           <div className="my-custom-class" style={customStyles['.my-custom-class > :not([hidden]) ~ :not([hidden])']}>
+            <div className="md:ml-5 grid grid-rows-4 place-items-center gap-y-5 md:mx-0 lg:ml-44 lg:grid-cols-2 lg:grid-rows-2 md:gap-x-5 md:gap-y-5">
+              <div className="flex h-full max-w-[350px] flex-col bg-[#CAC9C9]/40 p-3 md:max-w-[500px]">
                 <p id="cyber" className="text-sm text-white md:text-xl">
                   REGISTRATION PHASE
                 </p>
@@ -72,7 +79,7 @@ const Overview = () => {
               </div>
             </div>
             <div
-              className="mt-20 text-center text-lg text-white lg:ml-30 md:text-3xl"
+              className="mt-20 text-center text-lg text-white lg:ml-[10rem] md:text-3xl"
               id="cyber"
             >
               COMPLETION OF INTERNSHIP
